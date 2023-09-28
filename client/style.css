@@ -4,6 +4,12 @@
 
 body {
     margin: 0;
+    background-color: #33373E;
+}
+
+.app_div {
+    display: flex;
+    flex-direction: column;
 }
 
 .navbar_nav {
@@ -12,18 +18,32 @@ body {
     grid-template-columns: min-content auto max-content 3%;
 }
 
-.navbar_react_logo {
+.navbar_nav > img {
     margin: 2vh;
     padding: 4px;
     height: 30px;
 }
 
-.navbar_h3 {
+.navbar_nav > h3 {
     font-family: 'Inter', sans-serif;
     color: #00D8FF;
 }
 
-.navbar_h4 {
+.navbar_nav > h4 {
     font-family: 'Inter', sans-serif;
     color: white;
+}
+
+.main_main > h1 {
+    padding: 0 0 0 1vw;
+    font-family: 'Inter', sans-serif;
+}
+
+.main_ul > li {
+    font-family: 'Inter', sans-serif;
+}
+
+.main_ul > li::marker {
+    font-size: 1.4rem;
+    color: #61DAFB;
 }
