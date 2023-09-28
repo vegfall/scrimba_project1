@@ -1,3 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    background-color: red;
+    margin: 0;
+}
+
+.navbar_nav {
+    background-color: #21222a;
+    display: grid;
+    grid-template-columns: min-content auto max-content 3%;
+}
+
+.navbar_react_logo {
+    margin: 2vh;
+    padding: 4px;
+    height: 30px;
+}
+
+.navbar_h3 {
+    font-family: 'Inter', sans-serif;
+    color: #00D8FF;
+}
+
+.navbar_h4 {
+    font-family: 'Inter', sans-serif;
+    color: white;
 }
