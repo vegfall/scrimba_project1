@@ -37,10 +37,12 @@ body {
 .main_main > h1 {
     padding: 0 0 0 1vw;
     font-family: 'Inter', sans-serif;
+    color: white;
 }
 
 .main_ul > li {
     font-family: 'Inter', sans-serif;
+    color: white;
 }
 
 .main_ul > li::marker {
